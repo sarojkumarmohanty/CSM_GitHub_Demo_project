@@ -4,7 +4,8 @@ public class MyMathImpl implements MyMath {
 
 	@Override
 	public int add(int a, int b) {
-		return a+b;
+		int r=a+b;
+		return r;
 	}
 
 	@Override
