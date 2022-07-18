@@ -10,7 +10,8 @@ public class MyMathImpl implements MyMath {
 
 	@Override
 	public int mul(int a, int n) {
-		return a*n;
+		int r=a*n;
+		return r;
 	}
 
 }
